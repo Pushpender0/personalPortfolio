@@ -209,9 +209,9 @@ splitedText.forEach(function (ele) {
 breakTheText()
 
 gsap.from("h1 span",{
-  y:70,
+  x:150,
   opacity:0,
-  duration:0.8,
+  duration:1,
   delay:0.5,
   stagger:0.10,
 })
